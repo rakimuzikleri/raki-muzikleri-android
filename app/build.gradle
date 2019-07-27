@@ -27,8 +27,6 @@ android {
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
 
-    api project(':data')
-
     def mobileUiDependencies = rootProject.ext.mobileUiDependencies
 
     implementation mobileUiDependencies.kotlin
